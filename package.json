@@ -1,0 +1,12 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.mjs",
+  "scripts": {
+    "test": "test",
+    "start":"./server.mjs"
+  },
+  "author": "",
+  "license": "ISC"
+}
