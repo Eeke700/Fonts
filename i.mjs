@@ -1,4 +1,4 @@
-export const file =(f,fo=f.split('+').join(' '))=> `<!DOCTYPE html>
+export const file =(f,fo = f ? f.split('+').join(' '):'')=> `<!DOCTYPE html>
 <html id="html">
     <head>
 <style id="style">
