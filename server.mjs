@@ -1,6 +1,5 @@
 import http from 'http';
-import * as fs from 'fs/promises';
+import {file} from './i.mjs';
 
-const file = await fs.readFile('./i.html');
-const listener = (req,res)=>res.end(file);
+const listener = (req,res)=>res.end(file(req.url?.split('/').slice(-1)[0]);
 http.createServer(listener).listen(3030);
